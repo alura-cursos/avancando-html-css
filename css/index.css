@@ -142,3 +142,6 @@ main {
     top: 35%;
     left: 65%;
 }
+.titulo-principal {
+    position: relative;
+}
