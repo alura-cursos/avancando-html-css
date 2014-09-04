@@ -174,6 +174,36 @@ main {
 }
 .titulo-principal {
     position: relative;
+    overflow-x: hidden;
+}
+.banner-twitter {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    line-height: 1;
+
+    /* largura = 14em */
+    /* altura = 3.5em */
+    /* tx = .707 * h - .707 * w + w */
+    /* ty = -.707 * h */
+    -webkit-transform: translate(6.5765em, -2.4745em) rotate(45deg);
+            transform: translate(6.5765em, -2.4745em) rotate(45deg);
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+
+    width: 14em;
+    padding: 1em 0;
+    box-sizing: border-box;
+
+    text-align: center;
+    text-decoration: none;
+    background-color: #3C1D3D;
+    color: white;
+    border: .25em solid black;
+
+    font-size: 1.2em;
+    font-family: "Open Sans Condensed", sans-serif;
 }
 .blog .inicio-post {
     position: absolute;
