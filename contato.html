@@ -18,9 +18,9 @@
                 <fieldset>
                     <legend>Seus dados</legend>
                     <label for="nome">Nome</label>
-                    <input id="nome" type="text" name="nome">
+                    <input id="nome" type="text" name="nome" required autofocus>
                     <label for="email">E-mail</label>
-                    <input id="email" type="email" name="email">
+                    <input id="email" type="email" name="email" required placeholder="seu@email.com">
                 </fieldset>
                 <fieldset>
                     <legend>Assunto</legend>
@@ -41,7 +41,7 @@
                     </fieldset>
                 </fieldset>
                 <label for="mensagem">Mensagem</label>
-                <textarea id="mensagem" name="mensagem" cols="60" rows="10"></textarea>
+                <textarea id="mensagem" name="mensagem" cols="60" rows="10" placeholder="Digite aqui sua mensagem"></textarea>
                 <button type="submit">Enviar mensagem</button>
             </form>
         </div>
