@@ -17,14 +17,17 @@
     margin-right: 0;
 }
 
-.citacao-bio:hover {
+.citacao-bio:hover,
+.citacao-bio:focus {
     box-shadow: 0 0 0 99999px rgba(0,0,0,.8);
 }
 
-.citacao-bio:nth-of-type(odd):hover {
+.citacao-bio:nth-of-type(odd):hover,
+.citacao-bio:nth-of-type(odd):focus {
     transform: scale(1.2) rotate(5deg);
 }
 
-.citacao-bio:nth-of-type(even):hover {
+.citacao-bio:nth-of-type(even):hover,
+.citacao-bio:nth-of-type(even):focus {
     transform: scale(1.2) rotate(-5deg);
 }
