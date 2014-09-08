@@ -34,6 +34,13 @@ main a {
     color: #851944;
 }
 
+main a:hover,
+main a:focus,
+footer a:focus,
+footer a:hover {
+    color: red;
+}
+
 main p {
     text-align: justify;
     margin: 1em 0;
@@ -50,6 +57,11 @@ main p {
     color: inherit;
     font-family: "Open Sans Condensed", "Arial", sans-serif;
     text-transform: lowercase;
+}
+
+.navegacao-site a:hover,
+.navegacao-site a:focus {
+    text-shadow: 0 0 2px pink;
 }
 
 .navegacao-site h1 {
