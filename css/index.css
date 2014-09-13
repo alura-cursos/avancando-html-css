@@ -64,12 +64,16 @@
 }
 .blog {
     background-color: #999;
+    position: relative;
     color: #FFF;
     border-bottom: .5em solid #851944;
 }
 .blog small {
     position: relative;
     top: -2em;
+}
+.blog li {
+    width: 30%;
 }
 .blog li a {
     color: #FCF;
@@ -144,4 +148,20 @@ main {
 }
 .titulo-principal {
     position: relative;
+}
+.blog .inicio-post {
+    position: absolute;
+    top: 4em;
+    height: 8em;
+    left: 30%;
+    right: 4em;
+    background-color: #F2FFFC;
+    color: #000;
+    padding: 1.5em;
+}
+.blog .mais-recente {
+    background-color: #F2FFFC;
+}
+.blog .mais-recente a {
+    color: #F26;
 }
