@@ -220,17 +220,12 @@ body {
 
     line-height: 1;
 
-    /* largura = 14em */
-    /* altura = 3.5em */
-    /* tx = .707 * h - .707 * w + w */
-    /* ty = -.707 * h */
-    -webkit-transform: translate(6.5765em, -2.4745em) rotate(45deg);
-            transform: translate(6.5765em, -2.4745em) rotate(45deg);
+    -webkit-transform: translate(calc(.707 * (3.5em - 100%) + 100%), calc(-.707 * 3.5em)) rotate(45deg);
+            transform: translate(calc(.707 * (3.5em - 100%) + 100%), calc(-.707 * 3.5em)) rotate(45deg);
     -webkit-transform-origin: 0 0;
             transform-origin: 0 0;
 
-    width: 14em;
-    padding: 1em 0;
+    padding: 1em 3em;
     box-sizing: border-box;
 
     text-align: center;
