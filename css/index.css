@@ -32,6 +32,10 @@
             animation-direction: alternate;
     position: relative;
 }
+.saudacao:hover em {
+    -webkit-animation-play-state: paused;
+            animation-play-state: paused;
+}
 .botao-index {
     font-size: 1.25em;
     background-color: #851944;
