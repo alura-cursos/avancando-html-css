@@ -26,6 +26,11 @@
     -webkit-transform: rotate(-5deg) skew(-10deg);
             transform: rotate(-5deg) skew(-10deg);
     display: inline-block;
+    -webkit-animation: flutua 1s ease-in-out infinite;
+            animation: flutua 1s ease-in-out infinite;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+    position: relative;
 }
 .botao-index {
     font-size: 1.25em;
@@ -283,5 +288,21 @@ body {
     from {
         opacity: 0;
         transform: scale(0.001);
+    }
+}
+@keyframes flutua {
+    from {
+        top: -5px;
+    }
+    to {
+        top: 5px;
+    }
+}
+@-webkit-keyframes flutua {
+    from {
+        top: -5px;
+    }
+    to {
+        top: 5px;
     }
 }
