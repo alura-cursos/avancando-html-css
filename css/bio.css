@@ -5,6 +5,7 @@
     margin: 1em 2em;
     width: 30ch;
     box-sizing: border-box;
+    transition: box-shadow 1s, transform 1s;
 }
 
 .citacao-bio:nth-of-type(even) {
