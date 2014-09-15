@@ -52,3 +52,31 @@ input[value="Outro"] ~ input {
 input[value="Outro"]:checked ~ input {
     display: inline;
 }
+.com-icone {
+    position: relative;
+    margin-bottom: 0;
+}
+.com-icone::after {
+    content: '';
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    background-color: #8C1D3D;
+    background-size: 50% 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    left: 0;
+    top: 100%;
+}
+.com-icone + input {
+    width: calc(100% - 2em);
+    position: relative;
+    left: 2em;
+    margin-top: 0;
+}
+.com-icone[for="nome"]::after {
+    background-image: url(../imagens/usuario.png);
+}
+.com-icone[for="email"]::after {
+    background-image: url(../imagens/email.png);
+}
