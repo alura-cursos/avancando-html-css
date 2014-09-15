@@ -251,10 +251,14 @@ body {
     background-color: #F2FFFC;
     color: #000;
     padding: 1.5em;
+    display: none;
 }
-.blog .mais-recente {
+.blog a:hover + .inicio-post,
+.blog a:focus + .inicio-post {
+    display: block;
+}
+.blog a:hover,
+.blog a:focus {
     background-color: #F2FFFC;
-}
-.blog .mais-recente a {
     color: #F26;
 }
