@@ -140,6 +140,8 @@ body {
     font-size: 400%;
     color: rgba(255, 127, 127, .5);
     position: absolute;
+    -webkit-animation: aparece 2s;
+            animation: aparece 2s;
 }
 .eficiencia {
     top: 50%;
@@ -264,4 +266,16 @@ body {
 .blog a:focus {
     background-color: #F2FFFC;
     color: #F26;
+}
+@-webkit-keyframes aparece {
+    from {
+        opacity: 0;
+        transform: scale(0.001);
+    }
+}
+@keyframes aparece {
+    from {
+        opacity: 0;
+        transform: scale(0.001);
+    }
 }
