@@ -76,12 +76,13 @@
     color: #FFF;
 }
 .trabalhos ul {
-    overflow: hidden;
     border: .5em solid black;
+    display: -webkit-flex;
+    display:         flex;
 }
 .trabalhos li {
-    float: left;
-    width: 33.333%;
+    -webkit-flex: auto;
+            flex: auto;
 }
 .trabalhos img {
     width: 100%;
