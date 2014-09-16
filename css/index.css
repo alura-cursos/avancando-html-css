@@ -112,74 +112,75 @@ main {
 .palavra-home {
     font-family: "Shadows Into Light", cursive;
     font-weight: bold;
+    font-size: 400%;
     color: #D5447E;
     position: absolute;
 }
 .eficiencia {
     top: 50%;
     left: 60%;
-    -webkit-transform: translate(-50%, -50%) translateZ(4px) rotate(-5deg);
-            transform: translate(-50%, -50%) translateZ(4px) rotate(-5deg);
+    -webkit-transform: translate(-50%, -50%) translateZ(4px) rotate(-5deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(4px) rotate(-5deg) scale(.25);
 }
 .boas-praticas {
     top: 70%;
     left: 20%;
-    -webkit-transform: translate(-50%, -50%) translateZ(1px) rotate(10deg);
-            transform: translate(-50%, -50%) translateZ(1px) rotate(10deg);
+    -webkit-transform: translate(-50%, -50%) translateZ(1px) rotate(10deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(1px) rotate(10deg) scale(.25);
 }
 .codigo-limpo {
     top: 45%;
     left: 25%;
-    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(-10deg);
-            transform: translate(-50%, -50%) translateZ(2px) rotate(-10deg);
+    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(-10deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(2px) rotate(-10deg) scale(.25);
 }
 .css3 {
     top: 55%;
     left: 35%;
-    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(5deg);
-            transform: translate(-50%, -50%) translateZ(2px) rotate(5deg);
+    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(5deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(2px) rotate(5deg) scale(.25);
 }
 .html5 {
     top: 30%;
     left: 65%;
-    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(10deg);
-            transform: translate(-50%, -50%) translateZ(2px) rotate(10deg);
+    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
 }
 .javascript {
     top: 15%;
     left: 60%;
-    -webkit-transform: translate(-50%, -50%) translateZ(1px) rotate(-5deg);
-            transform: translate(-50%, -50%) translateZ(1px) rotate(-5deg);
+    -webkit-transform: translate(-50%, -50%) translateZ(1px) rotate(-5deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(1px) rotate(-5deg) scale(.25);
 }
 .acessibilidade {
     top: 30%;
     left: 35%;
-    -webkit-transform: translate(-50%, -50%) translateZ(3px) rotate(-5deg);
-            transform: translate(-50%, -50%) translateZ(3px) rotate(-5deg);
+    -webkit-transform: translate(-50%, -50%) translateZ(3px) rotate(-5deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(3px) rotate(-5deg) scale(.25);
 }
 .responsivo {
     top: 40%;
     left: 40%;
-    -webkit-transform: translate(-50%, -50%) translateZ(3px) rotate(10deg);
-            transform: translate(-50%, -50%) translateZ(3px) rotate(10deg);
+    -webkit-transform: translate(-50%, -50%) translateZ(3px) rotate(10deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(3px) rotate(10deg) scale(.25);
 }
 .otimizacoes {
     top: 70%;
     left: 65%;
-    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(-5deg);
-            transform: translate(-50%, -50%) translateZ(2px) rotate(-5deg);
+    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(-5deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(2px) rotate(-5deg) scale(.25);
 }
 .agilidade {
     top: 75%;
     left: 35%;
-    -webkit-transform: translate(-50%, -50%) translateZ(1px) rotate(5deg);
-            transform: translate(-50%, -50%) translateZ(1px) rotate(5deg);
+    -webkit-transform: translate(-50%, -50%) translateZ(1px) rotate(5deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(1px) rotate(5deg) scale(.25);
 }
 .design {
     top: 40%;
     left: 60%;
-    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(10deg);
-            transform: translate(-50%, -50%) translateZ(2px) rotate(10deg);
+    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
+            transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
 }
 .titulo-principal {
     position: relative;
