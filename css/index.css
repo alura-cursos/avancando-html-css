@@ -100,9 +100,19 @@ main {
     padding-bottom: 0;
     float: none;
 }
-.palavras-home {
+html,body {
+    overflow-x: hidden;
+    height: 100%;
+}
+body {
     -webkit-perspective: 6px;
             perspective: 6px;
+    -webkit-perspective-origin: 50% 160px;
+            perspective-origin: 50% 160px;
+}
+.palavras-home {
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -183,8 +193,9 @@ main {
             transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
 }
 .titulo-principal {
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
     position: relative;
-    overflow-x: hidden;
 }
 .banner-twitter {
     position: absolute;
