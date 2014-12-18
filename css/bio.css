@@ -77,3 +77,11 @@
 .habilidades thead th {
     background-color: #3C1D3D;
 }
+
+.habilidades [colspan] {
+    text-align: center;
+    font-style: italic;
+}
+.habilidades [rowspan] {
+    vertical-align: middle;
+}
