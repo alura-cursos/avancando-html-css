@@ -3,6 +3,8 @@ body {
     background-color: #F2FFFC;
     font-size: 120%;
     line-height: 1.5;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 h1,
@@ -128,26 +130,23 @@ em {
 }
 
 main {
-    width: calc(100% - 0.9 * 300px);
-    float: left;
     padding-bottom: 4em;
+    flex-grow: 1;
 }
 
 .minha-foto,
 .navegacao-site {
     border-left: .5em solid black;
-    border-bottom: .5em solid black;
     box-sizing: border-box;
 }
 
 .navegacao-site {
     width: calc(0.9 * 300px);
-    float: right;
-    position: relative;
-    top: 300px;
+    padding-top: calc(300px + 1em);
 }
 
 .minha-foto {
+    border-bottom: .5em solid black;
     position: absolute;
     top: 0;
     right: 0;

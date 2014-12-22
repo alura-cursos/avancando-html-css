@@ -1,3 +1,6 @@
+body {
+    display: block;
+}
 .foto-home {
     height: 200px;
     border-radius: 50%;
