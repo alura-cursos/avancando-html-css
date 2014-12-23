@@ -79,13 +79,23 @@ body {
     color: #FFF;
 }
 .trabalhos ul {
-    border: .5em solid black;
     display: -webkit-flex;
     display:         flex;
 }
 .trabalhos li {
     -webkit-flex: auto;
             flex: auto;
+    border: .5em solid #000;
+}
+.trabalhos li:first-child {
+    order: 2;
+    transform: scale(1.2);
+}
+.trabalhos li:nth-child(2) {
+    order: 1;
+}
+.trabalhos li:nth-child(3) {
+    order: 3;
 }
 .trabalhos img {
     width: 100%;
